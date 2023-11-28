@@ -1,0 +1,6 @@
+ name: "githubworkflows"
+ on: push
+ jobs:
+  runs-on: ubuntu-latest
+  steps:
+    run: echo "this is my first workflow"
